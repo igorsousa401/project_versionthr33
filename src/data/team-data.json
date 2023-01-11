@@ -1,0 +1,49 @@
+[
+  {
+    "name": "CharlieMark",
+    "roles": ["Co-Founder", "Design Lead & Ideation"],
+    "twitter": "https://twitter.com/CharlieMark_",
+    "image": "/images/team-avatar.png",
+    "about": [
+      "Charles has spent the last 15 years on and off in graphic design and media arts. His last position being Creative Team Lead, where his focus was on managing a team of media professionals, running: social media, fundraiser rollout, directing, print materials and web design.",
+      "This led to his destination of web3 and NFT’s, where this crossroad of crypto was the perfect blend of innovation and artistic design."
+    ]
+  },
+  {
+    "name": "Aloominati",
+    "roles": ["Collab Manager", "Whitelist Management & Reach"],
+    "twitter": "https://twitter.com/Aloominati_NFT",
+    "image": "/images/aloominati-avatar.png",
+    "about": [
+      "Aloominati has worked for 10 plus projects, and commits to the idea of staying very well connected. He has moderated for various smaller projects, with the focus of bringing community together. His collaboration focuses on bringing potential project collaborations and partnerships that can be beneficial for both sides."
+    ]
+  },
+  {
+    "name": "Yeahokay",
+    "roles": ["Co-Founder", "Team Vision & Management"],
+    "twitter": "https://twitter.com/0x_yeahokay",
+    "image": "/images/yeahokay-avatar.png",
+    "about": [
+      "Dan has spent the last 15 years harnessing pro level league of legends play and single handedly turned down hundreds of requests for e-sports teams, whilst keeping his family completely and utterly maintained and loved. He commonly hears the terms 'you are the man!' and 'How did you get so cool?'."
+    ]
+  },
+  {
+    "name": "Bigsn",
+    "roles": ["Collab Manager; Chinese Div.", "Chinese Project Management"],
+    "twitter": "https://twitter.com/Peace_Love_sn",
+    "image": "/images/bigsn-avatar.png",
+    "about": [
+      "Bigsn has spent his time building his network in WEB3 for over a year now, he now holds positions at Origins NFT: Chinese Division, The Black Pearl, and many others. Focusing on delivering excellent relationships and collaborations to projects."
+    ]
+  },
+  {
+    "name": "Averno",
+    "roles": ["Discord Architect", "Safety Standards & Function"],
+    "twitter": "https://twitter.com/0xAverno",
+    "image": "/images/bigsn-avatar.png",
+    "about": [
+      "Averno in web2 is a a geological engineer, but in web3 she spends her time focusing on discord community safety and structure. Hammering on being up to date with discord bots, safety parameters and best practices.",
+      "She has also helped build one of the premiere Spanish communities in WEB3: Sodaverse."
+    ]
+  }
+]

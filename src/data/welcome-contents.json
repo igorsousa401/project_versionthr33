@@ -1,0 +1,17 @@
+{
+  "about": [
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-1s'>V3 is a social NFT experiment driven by faction culture decision making.</p>",
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-2s'>Each member represents the ability to lead or be led. We will empower the community to propose themselves for faction leadership and allow the community to vote whom will lead them.</p>",
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-3s'>We believe you should have a product, community and leadership that you love and this comes from the ability to have leaders who month after month are passionate and engaged.</p>"
+  ],
+  "leaders": [
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-1s'>Why are we seeing projects rugged and founders leave?</p>",
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-2s'>Think with us. Web3 has rewarded new founders and projects without leaving room for the failures that a new leader would typically go through. This isn’t a lenience on malicious behavior but it’s a truth that remains; all people need to fail forward, especially leaders.</p>",
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-3s'>This brings us to V3, where we believe, allowing faction leaders to be voted into place and voted out, does two major things: it allows leaders to learn those hard lessons and failures without fracturing investor and community confidence, and most of all, gives the community the ability to vote in leadership that is eager, excited, and passionate about their positions, over and over again.</p>"
+  ],
+  "functions": [
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-1s'>We’ve all seen discords die out, why?<p>",
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-2s'>We believe this is a combination of good intention and improper understanding of social structure.<p>",
+    "<p class='text-small animate__animated animate__fadeIn animate__delay-3s'>Projects will create products, and then out of those products they open a discord to create a community but community is and has to be centered around an ongoing activity.<p>"
+  ]
+}

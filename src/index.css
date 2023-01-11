@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-scroll-bg-color: white;
+  --theme-scroll-thumb-color: #DCCFFA;
+  --theme-scroll-hover-color: #c3b0f0;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Gotham Ultra";
+    src: url("/public/fonts/Gotham-Ultra.otf");
+  }
+  @font-face {
+    font-family: "Gotham Black";
+    src: url("/public/fonts/Gotham-Black.otf");
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("/public/fonts/Gotham-Bold.otf");
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Gotham", "Gotham Ultra", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#home{
+  height: 100%;
+}
+
+/* Customize Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--theme-scroll-bg-color);
+}
+.color-artist{
+  background-image: linear-gradient(4.6deg, rgba(220, 220, 220, 0.8) -19.48%, rgba(50, 50, 50, 0) 74.82%), #000000;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-scroll-thumb-color);
+  @apply rounded-full;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--theme-scroll-hover-color);
+}
+
+/* Styling text */
+.text-vertical {
+  writing-mode: vertical-lr;
+}
+
+.text-xxlarge {
+  font-family: "Gotham Ultra";
+  @apply font-extrabold text-5xl md:text-8xl lg:text-[160px] 2xl:text-[245px] 2xl:leading-[380px] ;
+}
+.text-teamname {
+  font-family: "Gotham Ultra";
+  @apply font-extrabold text-5xl md:text-9xl lg:text-[14em] 2xl:text-[245px] 2xl:leading-[380px] leading-normal;
+}
+.text-xxxlarge {
+  font-family: "Gotham Ultra";
+  @apply font-extrabold text-5xl md:text-9xl lg:text-[13.5em] 2xl:text-[245px] 2xl:leading-[380px] ;
+}
+
+.text-artName {
+  font-family: "Gotham Ultra";
+  @apply font-medium text-xl md:text-3xl lg:text-7xl 2xl:text-[85px] leading-6 md:leading-10 2xl:leading-[100px];
+}
+
+.text-xlarge {
+  font-family: "Gotham Ultra";
+  @apply font-bold text-base md:text-3xl lg:text-4xl 2xl:text-[55px] leading-6 md:leading-10 2xl:leading-[74px];
+}
+
+.text-application {
+  font-family: "Gotham Ultra";
+  @apply font-bold text-xl md:text-4xl lg:text-6xl 2xl:text-[65px] leading-6 md:leading-10 2xl:leading-[55px];
+}
+
+.text-large {
+  font-family: "Gotham Ultra";
+  @apply font-bold  text-[2.3em] leading-6 md:leading-10 2xl:leading-[70px] tracking-wider;
+}
+
+.text-xmedium {
+  font-family: "Gotham Ultra";
+  @apply font-bold text-xl lg:text-2xl xl:text-4xl 2xl:text-[45px] 2xl:leading-[34px];
+}
+
+.text-artInfo {
+  font-family: "Gotham Ultra";
+  @apply font-medium text-base xl:text-3xl 2xl:text-5xl;
+}
+
+.text-smedium {
+  font-family: "Gotham Ultra";
+  @apply font-medium text-[1.4em] leading-3 md:leading-6 xl:leading-9;
+}
+.text-medium {
+  font-family: "Gotham Black";
+  @apply font-medium text-xs sm:text-xs xl:text-[32px] leading-3 md:leading-6 xl:leading-9;
+}
+.text-links-footer{
+  font-family: "Gotham Ultra";
+  @apply font-medium text-[1em];
+}
+
+.text-small {
+  font-family: "Gotham Ultra";
+  @apply font-medium text-[1.1em];
+}
+.text-footer2{
+  font-family: "Gotham";
+  @apply font-medium text-[0.9em];
+}
+.text-small2 {
+  font-family: "Gotham Ultra";
+  @apply font-medium text-[1.23em];
+}
+
+.text-xsmall {
+  font-family: "Gotham";
+  @apply font-normal text-xs md:text-xs xl:text-lg;
+}
+
+
+.text-header {
+  font-family: "Gotham Ultra";
+  @apply font-normal italic text-white sm:text-[0.75em] lg:text-[21px] xl:text-[21px];
+}
+
+.text-footer {
+  font-family: "Gotham Ultra";
+  @apply font-normal italic text-sm lg:text-base xl:text-[1.2em];
+}
+.text-shadow {
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.animate__animated.animate__delay-300ms{
+    --animate-delay: 0.3s;
+}
+.animate__animated.animate__delay-600ms{
+    --animate-delay: 1.2s;
+}
+
+.animate__animated.animate__delay-900ms{
+    --animate-delay: 1.8s;
+}
+.min-h-card{
+  min-height: 150vh;
+}
+.hr-social{
+  width: 100%;
+  transition: width 1s;
+}
+.item-social{
+  transition: background 1s;
+}
+
+
+.bg-social-1{
+  background: linear-gradient(268.26deg, #FFFADD 3.91%, rgba(255, 255, 255, 0) 99.4%), #F9D6B4;
+}
+.bg-social-1-hover{
+  background: linear-gradient(268.26deg, #FFEF95 3.91%, rgba(255, 255, 255, 0) 99.4%), #FFB267;
+}
+
+.bg-social-2{
+  background: linear-gradient(268.26deg, #FFE4DC 3.91%, rgba(255, 255, 255, 0) 99.4%), #F9D6B4
+}
+.bg-social-2-hover{
+  background: linear-gradient(268.26deg, #FFE4DC 3.91%, rgba(255, 255, 255, 0) 99.4%), #AEFFB1;
+}
+
+
+.bg-social-3{
+  background: linear-gradient(268.26deg, #F9D7B6 3.91%, rgba(255, 255, 255, 0) 99.4%), #FFE5DD;
+}
+.bg-social-3-hover{
+  background: linear-gradient(268.26deg, #F9D7B6 3.91%, rgba(255, 255, 255, 0) 99.4%), #6FDCFF;
+}
